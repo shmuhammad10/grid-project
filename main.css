@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  padding: 50px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (310px)[2];
+      grid-template-rows: repeat(2, 310px);
+  gap: 20px;
+  background-color: #EDF2F8;
+}
+
+.all .box {
+  border-radius: 10px;
+}
+
+.all .box1 {
+  background-color: #733FC8;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  position: relative;
+  overflow: hidden;
+}
+
+.all .box1 .ima1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.all .box1 .bolo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.all .box1 .bolo img {
+  margin-right: 20px;
+}
+
+.all .box1 .bolo p {
+  color: #CFCFCF;
+  margin-top: 5px;
+}
+
+.all .box1 .bolo h4 {
+  color: white;
+}
+
+.all .box1 .gap {
+  margin-left: 30px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.all .box1 .gap h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.all .box1 .gap p {
+  color: #EDF2F8;
+  opacity: 50%;
+  margin-top: 10px;
+  width: 99%;
+  letter-spacing: 1px;
+}
+
+.all .box2 {
+  background-color: #49556B;
+}
+
+.all .box2 .bolo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.all .box2 .bolo img {
+  margin-right: 20px;
+}
+
+.all .box2 .bolo p {
+  color: #CFCFCF;
+  margin-top: 5px;
+}
+
+.all .box2 .bolo h4 {
+  color: white;
+}
+
+.all .box2 .gap {
+  margin-left: 30px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.all .box2 .gap h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  width: 80%;
+}
+
+.all .box2 .gap p {
+  color: #EDF2F8;
+  opacity: 50%;
+  margin-top: 10px;
+  width: 90%;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.all .box3 {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+  -webkit-box-shadow: 0px 0px 20px gray;
+          box-shadow: 0px 0px 20px gray;
+  background-color: white;
+}
+
+.all .box3 .bolo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.all .box3 .bolo img {
+  margin-right: 20px;
+}
+
+.all .box3 .bolo p {
+  color: gray;
+  margin-top: 5px;
+}
+
+.all .box3 .gap {
+  margin-left: 30px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.all .box3 .gap h2 {
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.all .box3 .gap p {
+  color: black;
+  opacity: 50%;
+  width: 90%;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+.all .box4 {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 20px gray;
+          box-shadow: 0px 0px 20px gray;
+}
+
+.all .box4 .bolo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.all .box4 .bolo img {
+  margin-right: 20px;
+}
+
+.all .box4 .bolo p {
+  color: gray;
+  margin-top: 5px;
+}
+
+.all .box4 .gap {
+  margin-left: 30px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.all .box4 .gap h2 {
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  width: 90%;
+}
+
+.all .box4 .gap p {
+  opacity: 50%;
+  margin-top: 10px;
+  width: 99%;
+  letter-spacing: 1px;
+}
+
+.all .box5 {
+  background-color: #18202D;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.all .box5 .bolo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.all .box5 .bolo img {
+  margin-right: 20px;
+}
+
+.all .box5 .bolo p {
+  color: #CFCFCF;
+  margin-top: 5px;
+}
+
+.all .box5 .bolo h4 {
+  color: white;
+}
+
+.all .box5 .gap {
+  margin-left: 30px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.all .box5 .gap h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.all .box5 .gap p {
+  color: #EDF2F8;
+  opacity: 50%;
+  margin-top: 10px;
+  width: 99%;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=main.css.map */
